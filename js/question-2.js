@@ -5,7 +5,7 @@ const loading = document.querySelector(".loading");
 
 async function getGames() {
   try {
-    debugger;
+    // debugger;
     const response = await fetch(url + apiKey);
     loading.innerHTML = `<h1>LOADING...</h1>`;
     const data = await response.json();
