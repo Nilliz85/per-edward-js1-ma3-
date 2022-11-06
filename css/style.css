@@ -1,0 +1,30 @@
+h1 {
+  text-align: center;
+  font-size: 80px;
+  text-decoration: underline 5px solid #000;
+}
+
+.games-list {
+  display: grid;
+  grid-template-columns: repeat(2, 500px);
+  text-align: center;
+  column-gap: 30px;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.games {
+  border: 2px solid #000;
+  max-width: 800px;
+}
+
+.games:nth-child(3),
+.games:nth-child(4),
+.games:nth-child(7),
+.games:nth-child(8) {
+  background-color: lightgray;
+}
+
+.name {
+  text-decoration: underline 2px #000;
+}
